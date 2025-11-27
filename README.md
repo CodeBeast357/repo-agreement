@@ -42,15 +42,17 @@ This greedy strategy ensures internal collateral is used where it matters most a
 
 ## How to Compile and Run the Project
 Prerequisites:
-   Java 17+ installed
-   This project uses plain .java files (no Maven or Gradle)
+- Java 17+ installed
+- This project uses plain .java files (no Maven or Gradle)
 
 Compile:
-Run this from the project root (where the src/ folder is located): javac -d out src/models/*.java src/util/*.java src/core/*.java src/Main.java
+
+Run this from the project root (where the `src/` folder is located): `javac -d out src/models/*.java src/util/*.java src/core/*.java src/Main.java`
 
 
 Run:
-After compiling, run the program with: java -cp out Main
+
+After compiling, run the program with: `java -cp out Main`
 
 
 
